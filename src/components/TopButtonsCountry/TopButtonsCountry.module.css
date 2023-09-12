@@ -1,0 +1,15 @@
+.wrapCountys {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px 0;
+}
+.btnCity {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

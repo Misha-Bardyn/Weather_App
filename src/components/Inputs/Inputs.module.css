@@ -1,0 +1,55 @@
+.formInput{
+    margin: 6px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.wrapInput{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    /* margin-left: 4px; */
+}
+.input{
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    padding: 8px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.4);
+    margin-right: 8px;
+}
+.typeTemperche{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.btnTemperche{
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.line{
+    margin-left: 5px;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+.iconSearch{
+    cursor: pointer;
+}
+.iconSearch:hover, .btnTemperche:hover{
+    transform: scale(1.25);
+    transition-duration: 150ms;
+}

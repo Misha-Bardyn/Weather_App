@@ -1,0 +1,25 @@
+.wrapperTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0px;
+}
+.wrapperLocal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+}
+.time{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 200;
+    letter-spacing: 0.6px;
+}
+.local{
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
