@@ -51,5 +51,5 @@ function App() {
     </div>
   )
 }
-// перевірити назви змвнних та компонентів
+
 export default App;
